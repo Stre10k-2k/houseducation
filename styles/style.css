@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 25px 0px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.nav_list{
+    display: flex;
+    align-items: center;
+}
+.nav_list_item{
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.nav_list_button{
+    margin-left: 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    border-radius: 89px;
+    width: 247px;
+    height: 54px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.nav_list_button:hover{
+    cursor: pointer;
+}
+.header_section{
+    display: flex;
+    margin: 150px 0px;
+    margin-left: 50px;
+}
+.header_section_title{
+    font-size: 64px;
+    font-weight: 900;
+    width: 690px;
+}
+.header_section_subtitle{
+    font-size: 20px;
+    font-weight: 400;
+}
+.yandexstars{
+    width: 312px;
+    height: 70px;
+    box-shadow: 5px 5px 5px #04011626;
+    border-radius: 8px;
+    position: relative;
+    margin-top: 50px;
+}
+.yandexstars_fill{
+    padding: 15px;
+}
+.commenttail{
+    position: absolute;
+    top: 58px;
+    left: 200px;
+    -webkit-text-stroke: #04011626;
+}
+.header_button_contain{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.header_section_button{
+    background-image: linear-gradient(to right bottom, #2400FF, #0066FF);
+    width: 355px;
+    height: 76px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 85px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 50px;
+}
+.button_arrow{
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+.header_section_button:hover{
+    cursor: pointer;
+}
+.button_subtitle{
+    top: 50px;
+    left: 260px;
+    position: absolute;
+    height: 48px;
+    width: 266px;
+    background-image: radial-gradient(circle, white, lightgray);
+    text-align: right;
+    padding-top: 28px;
+    padding-right: 40px;
+    z-index: -1;
+    border-radius: 85.2px;
+}
