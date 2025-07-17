@@ -140,3 +140,12 @@ nav{
     font-weight: 400;
     align-items: center;
 }
+
+.methodic_list{
+    display: flex;
+}
+.methodic_list{
+    width: 365px;
+    height: 168px;
+}
+
