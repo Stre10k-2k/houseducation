@@ -351,6 +351,7 @@ nav{
     align-items: start;
     position: relative;
     align-self: flex-start;
+    margin-left: 20%;
 }
 .week_section_button{
     background-image: linear-gradient(to right bottom, #2400FF, #0066FF);
@@ -409,13 +410,43 @@ nav{
     width: 100px;
     align-self: flex-start;
     position: absolute;
-    left: -200px;
     z-index: -1;
 }
 .week_img_ipad{
     width: 200px;
     align-self: flex-end;
     position: absolute;
-    left: 800px;
+    left: 1100px;
     z-index: 10;
+    top: -190px;
+}
+.interes{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    margin: 50px;
+}
+.interes_contain{
+    width: 690px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.interes_title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.interes_subtitle{
+    font-weight: 400;
+    font-size: 20px;
+}
+.interes_btn{
+    background-color: transparent;
+    border: none;
+    align-self: center;
+    width: 307px;
+    font-size: 24px;
+    font-weight: 700;
+    margin-right: 50px;
+}
+.interes_arrow{
+    align-self: center;
 }
