@@ -447,6 +447,314 @@ nav{
     font-weight: 700;
     margin-right: 50px;
 }
+.interes_btn:hover + .interes_arrow{
+    transform: translate(100px, 0px);
+    transition-duration: 400ms;
+}
+.interes_arrow:hover{
+    transform: translate(100px, 0px);
+    transition-duration: 400ms;
+}
 .interes_arrow{
     align-self: center;
+}
+.progress{
+    margin-top: 300px;
+    margin-left: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.progres_first_contain{
+    position: relative;
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+.absolute_img{
+    position: absolute;
+    z-index: -1;
+    left: 25%;
+}
+.dreams_list{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.dreams_item{
+    background-color: #C8D3D7;
+    border-radius: 35px;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+}
+.dreams_item:hover{
+    cursor: pointer;
+    background-color: #2400FF;
+    color: white;
+    transition-duration: 400ms;
+}
+.dreams_list_item{
+    display: inline-block;
+}
+.dreams_arrow{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    font-size: 30px;
+    padding: 15px 17px;
+}
+.dreams_arrow:hover{
+    cursor: pointer;
+}
+.dreams_item_end{
+    background-color: #E62336;
+    border-radius: 35px;
+    padding: 10px 15px;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 10px;
+    color: white;
+}
+.dreams_item_end:hover{
+    cursor: pointer;
+}
+.dreams_item_end:hover + .dreams_end_item{
+    transform: translate(270px, 0px);
+    transition-duration: 600ms;
+}
+.dreams_end_item{
+    display: inline-block;
+}
+.dreams_end{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.progress_title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.progress_subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.ai{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 200px;
+    margin-left: 50px;
+}
+.ai_contain{
+    width: 50%;
+}
+.ai_title{
+    position: relative;
+    font-size: 40px;
+    width: 900;
+}
+.ai_img{
+    position: absolute;
+    right: 0px;
+    top: -50px;
+    z-index: -1;
+    width: 250px;
+}
+.ai_subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 30px;
+}
+.ai_list{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+.ai_list_item{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.ai_second_contain{
+    margin-left: 20px;
+    position: relative;
+}
+.ai_second_img{
+    width: 550px;
+    border-radius: 35px;
+    margin-left: 0px;
+}
+@keyframes robo{
+    0%{
+        left: 0px;
+        bottom: 0px;
+    }
+    100%{
+        left: 340px;
+        bottom: 0px;
+    }
+}
+.ai_robo{
+    position: absolute;
+    bottom: 0px;
+    left: 340px;
+    width: 200px;
+    animation-name: robo;
+    animation-duration: 1s;
+    animation-direction: alternate-reverse;
+    animation-iteration-count: 2;
+    animation-delay: 30s;
+}
+.plan{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 200px;
+}
+.plan *{
+    color: white;
+}
+.plan_contain{
+    background-color: #2E3234;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+    border-radius: 35px;
+    width: 788px;
+    height: 434px;
+    position: relative;
+}
+.plan_img{
+    position: absolute;
+    top: -130px;
+    width: 200px;
+}
+.plan_title{
+    padding-top: 50px;
+    font-size: 24px;
+    font-weight: 700;
+}
+.plan_subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.plan_button_contain{
+    display: flex;
+    align-items: start;
+    position: relative;
+    align-self: flex-start;
+    margin-left: 100px;
+}
+.plan_section_button{
+    background-image: linear-gradient(to right bottom, #2400FF, #0066FF);
+    width: 385px;
+    height: 76px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 85px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 50px;
+    z-index: 2;
+}
+.plan_button_arrow{
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+.plan_section_button:hover{
+    cursor: pointer;
+    width: 550px;
+    transition-duration: 400ms;
+}
+.plan_button_subtitle{
+    top: 50px;
+    left: 230px;
+    position: absolute;
+    height: 48px;
+    width: 266px;
+    background-image: radial-gradient(circle, white, lightgray);
+    text-align: right;
+    padding-top: 28px;
+    padding-right: 40px;
+    border-radius: 85.2px;
+    z-index: 1;
+    color: black;
+}
+.plan_section_button:hover + .plan_button_subtitle{
+    color: white;
+    background-image: none;
+    z-index: 3;
+}
+.plan_button_subtitle:hover{
+    color: white;
+    background-image: none;
+    z-index: 3;
+}
+.other_way{
+    margin-top: 30px;
+}
+.profession{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 200px;
+}
+.proffesion_title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.profession_subtitle{
+    font: 20px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+.profession_list{
+    display: flex;
+    margin-top: 20px;
+
+}
+.profession_item{
+    width: 300px;
+    height: 506px;
+    border: 1px solid #C8D3D7;
+    box-shadow: 2px 2px 5px #04011626;
+    margin-left: 20px;
+    border-radius: 25px;
+    position: relative;
+}
+.profession_contain{
+    padding: 15px;
+}
+.profession_img{
+    width: 300px;
+    position: absolute;
+    bottom: 0px;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.show_more{
+    border:  2px solid black;
+    border-radius: 89px;
+    padding: 15px 25px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.show_more:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition-duration: 400ms;
 }
