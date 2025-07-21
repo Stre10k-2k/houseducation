@@ -158,7 +158,7 @@ nav{
     display: inline-block;
 }
 @keyframes rocket{
-    0%{
+    10%{
         transform: translate(0px, 0px);
     }
     50%{
@@ -174,7 +174,7 @@ nav{
     left: 400px;
     animation-name: rocket;
     animation-duration: 3s;
-    animation-delay: 2s;
+    animation-iteration-count: infinite;
 }
 .about_list{
     margin-top: 40px;
@@ -269,7 +269,7 @@ nav{
     top: -50px;
     animation-name: rocket;
     animation-duration: 3s;
-    animation-delay: 10s;
+    animation-iteration-count: infinite;
 }
 .batgirl{
     width: 500px;
@@ -594,6 +594,10 @@ nav{
         left: 0px;
         bottom: 0px;
     }
+    90%{
+        left: 340px;
+        bottom: 0px;
+    }
     100%{
         left: 340px;
         bottom: 0px;
@@ -607,8 +611,7 @@ nav{
     animation-name: robo;
     animation-duration: 1s;
     animation-direction: alternate-reverse;
-    animation-iteration-count: 2;
-    animation-delay: 30s;
+    animation-iteration-count: infinite;
 }
 .plan{
     justify-content: center;
@@ -864,4 +867,119 @@ nav{
 }
 .impression_video{
     width: 300px;
+}
+.parents_impressions{
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+}
+.parents_impressions_contain{
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.parent_title{
+    font-size: 40px;
+    font-weight: 900;
+}
+@keyframes hearts{
+    15%{
+        right: 200px;
+        bottom: -50px;
+        transform: rotate(0deg);
+        width: 200px;
+    }
+    100%{
+        width: 50px;
+        transform: rotate(180deg);
+    }
+}
+.hearts{
+    position: absolute;
+    width: 200px;
+    right: 200px;
+    bottom: -50px;
+    animation-name: hearts;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.parents_list{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.parents_item{
+    margin-left: 20px;
+}
+.parent_photo{
+    width: 100px;
+}
+.parent_name{
+    font-size: 24px;
+    font-weight: 700;
+    width: 350px;
+}
+.parent_subtitle{
+    font-size: 20px;
+    font-weight: 400;
+    width: 350px;
+}
+.parent_button_contain{
+    display: flex;
+    align-items: start;
+    position: relative;
+    align-self: flex-start;
+    margin-left: 30%;
+}
+.parent_section_button{
+    background-image: linear-gradient(to right bottom, #2400FF, #0066FF);
+    width: 385px;
+    height: 76px;
+    font-weight: 700;
+    font-size: 20px;
+    border: none;
+    border-radius: 85px;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    margin-top: 50px;
+    z-index: 2;
+    align-self: center;
+}
+.parent_button_arrow{
+    margin-left: 50px;
+    color: white;
+    font-size: 30px;
+}
+.parent_section_button:hover{
+    cursor: pointer;
+    width: 550px;
+    transition-duration: 400ms;
+}
+.parent_button_subtitle{
+    top: 50px;
+    left: 270px;
+    position: absolute;
+    height: 48px;
+    width: 266px;
+    background-image: radial-gradient(circle, white, lightgray);
+    text-align: right;
+    padding-top: 28px;
+    padding-right: 40px;
+    border-radius: 85.2px;
+    z-index: 1;
+    color: black;
+}
+.parent_section_button:hover + .parent_button_subtitle{
+    color: white;
+    background-image: none;
+    z-index: 3;
+}
+.parent_button_subtitle:hover{
+    color: white;
+    background-image: none;
+    z-index: 3;
 }
