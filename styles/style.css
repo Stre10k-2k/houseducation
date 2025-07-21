@@ -983,3 +983,172 @@ nav{
     background-image: none;
     z-index: 3;
 }
+.costs{
+    margin-top: 200px;
+}
+.price_list{
+    display: flex;
+    text-align: center;
+    flex-wrap: wrap;
+    margin-top: 50px;
+}
+.costs_contain{
+    display: flex;
+    justify-content: center;
+}
+.cost_title{
+    font-size: 40px;
+    font-weight: 900;
+    margin: 50px 0px;
+}
+.price_item{
+    height: 1407px;
+    border: 1px solid #C8D3D7;
+    border-radius: 25px;
+    box-shadow: 2px 2px 6px #04011626;
+    width: 350px;
+    margin-left: 20px;
+}
+.price_item:hover{
+    background-color: #2E3234;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+.price_item:hover *{
+    color: white;
+    border-color: white;
+}
+.price_item:hover .diplom *{
+    color: black;
+}
+.price_title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 100px;
+}
+.price_discription{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    border-bottom: solid 7px black;
+    width: 300px;
+    justify-self: center;
+}
+.diplom{
+    text-align: left;
+    margin: 0px 25px;
+    margin-top: 50px;
+    background-color: #E7E7E7;
+    border-radius: 25px;
+    padding: 20px;
+}
+.order_item{
+    list-style-type: decimal;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+strong{
+    font-size: 40px;
+    font-weight: 900;
+}
+.price_checks_list{
+    text-align: left;
+    margin-top: 50px;
+}
+.price_checks_item{
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 50px;
+    list-style-image: url(../imgs/Vector.png);
+}
+.calculator_btn{
+    background-image: linear-gradient(to right top, #2400FF, #0066FF);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    margin-top: 50px;
+}
+.btn_text{
+    color: white;
+}
+.calc{
+    width: 50px;
+}
+.calculator_btn:hover{
+    background-image: none;
+    background-color: #2E3234;
+    cursor: pointer;
+    transition-duration: 400ms;
+}
+.calculator_btn:hover *{
+    color: white;
+}
+.availability{
+    margin-top: 200px;
+}
+.availability_contain{
+    text-align: center;
+}
+.availability_title{
+    font-size: 40px;
+    font-weight: 900;
+}
+.availability_list{
+    display: flex;
+    justify-self: center;
+    flex-wrap: wrap;
+}
+.availability_item{
+    width: 430px;
+    margin-left: 10px;
+    height: 350px;
+    padding: 30px;
+    border-radius: 25px;
+}
+.first{
+    background-image: linear-gradient(to right top, #2400FF, #0066FF);
+}
+.first *{
+    color: white;
+}
+.second{
+    background-color: #2E3234;
+}
+.second *{
+    color: white;
+}
+.third{
+    background-color: #FFCD4C;
+}
+.availability_img{
+    width: 250px;
+    height: 240px;
+}
+.availability_item_title{
+    font-size: 24px;
+    font-weight: 700;
+}
+.availability_item_subtitle{
+    font-size: 20px;
+    font-weight: 400;
+}
+.before_school{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.before_item{
+    display: flex;
+    margin-top: 20px;
+}
