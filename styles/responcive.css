@@ -1,0 +1,22 @@
+@media (max-width:1030px){
+    .dropdown{
+        display: inline-block;
+    }
+    .dropdown_btn:hover + .dropdown_items{
+        display: block;
+    }
+    .dropdown_items{
+        display: none;
+        position: absolute;
+    }
+    .dropdown_list_btn{
+        padding: 10px;
+        background-color: transparent;
+        border: none;
+        background-image: linear-gradient(to right top, #2400FF, #0066FF);
+        border-radius: 85px;
+    }
+    .nav_list{
+        display: none;
+    }
+}

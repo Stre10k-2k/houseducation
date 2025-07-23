@@ -18,6 +18,10 @@ nav{
     width: 100%;
     z-index: 100;
 }
+.dropdown{
+    display: none;
+}
+
 .nav_list{
     display: flex;
     align-items: center;
@@ -715,6 +719,7 @@ nav{
     align-items: center;
     justify-content: center;
     margin-top: 200px;
+    flex-wrap: wrap;
 }
 .proffesion_title{
     font-size: 40px;
@@ -770,6 +775,7 @@ nav{
     justify-self: center;
     text-align: center;
     margin-top: 200px;
+    flex-wrap: wrap;
 }
 .teachers_title{
     font-size: 40px;
