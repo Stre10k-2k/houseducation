@@ -733,6 +733,8 @@ nav{
 .profession_list{
     display: flex;
     margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
 
 }
 .profession_item{
