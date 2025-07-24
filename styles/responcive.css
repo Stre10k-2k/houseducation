@@ -1,4 +1,14 @@
+@media (max-width:1359px){
+    .week_img_contain{
+        display: none;
+    }
+}
 @media (max-width:1030px){
+    nav{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
     .dropdown{
         display: inline-block;
     }
@@ -10,6 +20,8 @@
         position: absolute;
         width: 100%;
         background-color: rgba(255, 255, 255, 0.6);
+        padding: 10px;
+        border-radius: 25px;
     }
     .dropdown_list_item{
         margin-top: 10px;
